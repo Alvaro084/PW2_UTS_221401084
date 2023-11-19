@@ -1,0 +1,36 @@
+/* .jumbotron {
+    background-color:salmon;
+} */
+body{
+    min-height: 2000px;
+}
+.body{
+    background-color: rgba(128, 128, 128, 0.954);
+}
+*{
+    font-family:cursive;
+}
+
+
+.playlist{
+    margin-top: 150px;
+}
+
+.card{
+    margin-top: 10px;
+    background: none;
+    border: 0cap;
+}
+.card2{
+    margin: 250px;
+    
+}
+.cardcontain{
+    width: 50cm;
+    background-color: aqua;
+}
+
+
+section{
+    padding-top: 5rem;
+}

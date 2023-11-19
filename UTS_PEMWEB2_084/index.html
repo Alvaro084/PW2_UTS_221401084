@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>UTSPEMWEB2_084</title>
+    <link rel="icon" href="img/aro.jpeg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  </head>
+  <body class="body">
+    
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg  bg-dark navbar-dark sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">My Portofolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#playlist">Playlist</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact me</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- akhir navbar -->
+    <!-- awal carousel -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/lambo.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/mustang.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/supra.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- akhir carousel -->
+    <!-- Jumbotron -->
+    <section id="home" class="jumbotron text-center">
+        <h1>Welcome to my Portofolio</h1>
+        <img src="img/aro.jpg" alt="Alvaro Hutabarat" width="200px" class="rounded-circle" />
+        <h1 class="display-4">Alvaro Marchellino Pedrosa Hutabarat</h1>
+        <p class="lead">Mahasiswa | Ilmu Komputer</p>
+        
+    </div>
+    <!--Akhir Jumbotron -->
+    
+    <!-- about -->
+    <section id="about">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col mb-7">
+                    <h2>About</h2>
+                    <div class="row justify-content-center fs-5 text-center">
+                        <div class="col-md-6">
+                            <p>Saya adalah Mahasiswa Ilmu Komputer Universitas Sumatera Utara</p>
+                        </div>
+                        <div class="col-md-6">
+                            <p>Saya mempunyai hobi bermain game, bermain bulutangkis, bermain basket dan mendengarkan musik</p>
+                        </div>
+                        <section id="playlist"></section>
+                        <h3 class="playlist">Playlist lagu yang sering saya dengar</h3>
+                        <div class="card" style="width: 18rem;" > 
+                            <img src="sportify.jpg" class="card-img-top" alt="sportify">
+                            <div class="card-body">
+                                <h5 class="card-title">Playlist</h5>
+                                <p class="card-text">Playlist ini biasa saya dengarkan ketika saya sedang mengemudikan mobil agar tidak merasa bosan dan ngantuk.</p>
+                                <a href="https://open.spotify.com/playlist/43hRl1MmKKB5orQunrpw9i?si=c815d672569d47b2" class="btn btn-primary">Go to playlist</a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    </section>
+
+        <section id="contact">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col">
+                        <h2>Contact Me</h2>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-8">
+                        <form>
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Nama Lengkap</label>
+                                <input type="text" class="form-control" id="name" aria-describedby="nameHelp">
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                                
+                            </div>
+                            <div class="mb-3">
+                                <label for="pesan" class="form-label">Pesan</label>
+                                <textarea class="form-control" id="pesan" rows="3"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-outline-dark">Kirim Pesan</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+               
+        </section>
+    </section>
+
+
+    <!--akhir about -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+
+    <footer class="pb-3 text-center" id="footer">
+        <p class="fw-bold">
+            Created by <a href="https://www.instagram.com/alvarohutabaratt" class="text-decoration-none" style="color: white;">Alvaro Hutabarat <i class="ig"></i></a>
+        </p>
+    </footer>
+
+</html>
